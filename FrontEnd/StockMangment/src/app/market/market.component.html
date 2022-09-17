@@ -1,0 +1,22 @@
+<div class="container">
+  <h1>Market Screen</h1>
+  <br />
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let stock of AllStocks; index as i">
+        <th scope="row">{{ i + 1 }}</th>
+        <td>{{ stock.name }}</td>
+        <td>
+          <input type="number" disabled [value]="stock.price" #newPrice />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

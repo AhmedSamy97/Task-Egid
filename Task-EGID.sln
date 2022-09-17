@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StocksApi", "StocksApi", "{3432F3F1-D647-407B-8951-6C526955FB49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StocksApi", "StocksApi\StocksApi.csproj", "{35AABEFE-0CAF-42B8-AB32-AFCFA386E32E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{B8EAC975-A785-4310-868F-044264DD7CA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35AABEFE-0CAF-42B8-AB32-AFCFA386E32E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35AABEFE-0CAF-42B8-AB32-AFCFA386E32E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35AABEFE-0CAF-42B8-AB32-AFCFA386E32E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35AABEFE-0CAF-42B8-AB32-AFCFA386E32E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{35AABEFE-0CAF-42B8-AB32-AFCFA386E32E} = {3432F3F1-D647-407B-8951-6C526955FB49}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {941E16A7-9ACA-472D-9B11-F58CFD4E8E4F}
+	EndGlobalSection
+EndGlobal
